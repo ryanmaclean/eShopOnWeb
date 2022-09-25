@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '75957c66-4467-4ed7-9f80-d7f0892b728e'
   imageRepository: 'ryanmacleaneshoponweb'
   containerRegistry: 'shopistacr.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/src/Web/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'shopistacra891-auth'
 
